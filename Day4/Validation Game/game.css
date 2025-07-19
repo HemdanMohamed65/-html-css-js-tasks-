@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+  margin: 0;
+}
+form {
+  background-color: #999;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 350px;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+form h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+input:focus {
+  outline: none;
+  border-color: #003366;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.error {
+  color: red;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  width: 45%;
+  margin: 10px 2.5%;
+}
+.green {
+  background-color: green;
+  color: white;
+}
+.red {
+  background-color: red;
+  color: white;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

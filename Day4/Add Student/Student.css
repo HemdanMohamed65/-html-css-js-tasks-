@@ -1,0 +1,59 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+}
+.error-message {
+  color: red;
+  font-size: 0.9em;
+}
+
+.form{
+  background-color: teal;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  margin: auto;
+  color: white;
+}
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 90%;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+}
+th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+td {
+  padding: 8px;
+}
+.delete-btn {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
