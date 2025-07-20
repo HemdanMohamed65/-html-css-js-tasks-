@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #eee;
+  background-color: #f0f4f8; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,16 +9,16 @@ body {
   margin: 0;
 }
 form {
-  background-color: #999;
+  background-color: #ffffff; 
   padding: 20px 30px;
   border-radius: 10px;
   width: 350px;
-  color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  color: #333;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 form h2 {
   text-align: center;
-  color: #003366;
+  color: #003366; 
   margin-bottom: 20px;
 }
 label {
@@ -30,15 +30,16 @@ input[type="password"],
 input[type="email"],
 select {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   margin-bottom: 5px;
   border-radius: 8px;
-  border: 2px solid black;
+  border: 1px solid #ccc;
   box-sizing: border-box;
+  transition: 0.3s;
 }
 input:focus {
   outline: none;
-  border-color: #003366;
+  border-color: #0077cc;
 }
 input[type="radio"],
 input[type="checkbox"] {
@@ -50,25 +51,31 @@ input[type="checkbox"] {
   font-size: 13px;
   margin-bottom: 10px;
 }
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
 .btn {
   padding: 10px 20px;
   border-radius: 20px;
   border: none;
   cursor: pointer;
   font-weight: bold;
-  width: 45%;
-  margin: 10px 2.5%;
+  width: 48%;
+  transition: 0.3s;
 }
 .green {
-  background-color: green;
+  background-color: #28a745; 
   color: white;
+}
+.green:hover {
+  background-color: #218838;
 }
 .red {
-  background-color: red;
+  background-color: #dc3545; 
   color: white;
 }
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+.red:hover {
+  background-color: #c82333;
 }
